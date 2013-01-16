@@ -1112,13 +1112,13 @@
 
     // bad
     Jedi.prototype = {
-      fight: function fight() {
-          console.log('fighting');
-      },
+        fight: function fight() {
+              console.log('fighting');
+        },
 
-      block: function block() {
-          console.log('blocking');
-      }
+        block: function block() {
+            console.log('blocking');
+        }
     };
 
     // good
