@@ -806,8 +806,8 @@
     ```javascript
     // bad
     var once
-      , upon
-      , aTime;
+        , upon
+        , aTime;
 
     // good
     var once,
@@ -817,17 +817,17 @@
     // bad
     var hero = {
         firstName: 'Bob'
-      , lastName: 'Parr'
-      , heroName: 'Mr. Incredible'
-      , superPower: 'strength'
+        , lastName: 'Parr'
+        , heroName: 'Mr. Incredible'
+        , superPower: 'strength'
     };
 
     // good
     var hero = {
-      firstName: 'Bob',
-      lastName: 'Parr',
-      heroName: 'Mr. Incredible',
-      superPower: 'strength'
+        firstName: 'Bob',
+        lastName: 'Parr',
+        heroName: 'Mr. Incredible',
+        superPower: 'strength'
     };
     ```
 
@@ -841,20 +841,20 @@
     ```javascript
     // bad
     (function() {
-      var name = 'Skywalker'
-      return name
+        var name = 'Skywalker'
+        return name
     })()
 
     // good
     (function() {
-      var name = 'Skywalker';
-      return name;
+        var name = 'Skywalker';
+        return name;
     })();
 
     // good
     ;(function() {
-      var name = 'Skywalker';
-      return name;
+        var name = 'Skywalker';
+        return name;
     })();
     ```
 
