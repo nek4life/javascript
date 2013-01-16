@@ -510,13 +510,13 @@
         // the same is true when the function name
         // is the same as the variable name.
         function example() {
-        console.log(named); // => undefined
+            console.log(named); // => undefined
 
-        named(); // => TypeError named is not a function
+            named(); // => TypeError named is not a function
 
-        var named = function named() {
-            console.log('named');
-        };
+            var named = function named() {
+                console.log('named');
+            };
         }
     }
     ```
