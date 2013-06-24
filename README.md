@@ -705,7 +705,7 @@
 
 ## <a name='whitespace'>Whitespace</a>
 
-  - Use soft tabs set to 4 spaces
+  - Use tabs
 
     ```javascript
     // bad
@@ -720,7 +720,7 @@
 
     // good
     function() {
-    ∙∙∙∙var name;
+        var name;
     }
     ```
   - Place 1 space before the leading brace.
